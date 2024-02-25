@@ -3,10 +3,10 @@ from scipy.special import softmax
 import numpy as np
 import subprocess
 
-python_output = subprocess.run(['python', 'tw-sentimental.py', user_input], capture_output=True).stdout.decode()
+#python_output = subprocess.run(['python', 'tw-sentimental.py', user_input], capture_output=True).stdout.decode()
 
 #Input of dataset
-tweet = name
+tweet = "@Bharath K Today is good day"
 
 #Preprocessing Data
 tweet_word=[]
